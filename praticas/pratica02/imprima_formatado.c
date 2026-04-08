@@ -19,9 +19,9 @@ int main() {
     char produto_meia[] = "meia Social";
 
     printf("Produto          Qnt    valor      unit.\n");
-    prntf("%s       %.2i   R$ %2f\n", produto_camiseta, numero_camiseta, valor_camiseta);
-    prntf("%s       %.2i   R$ %2f\n", produto_calca, numero_calca, valor_calca);
-    prntf("%s       %.2i   R$ %2f\n", produto_meia, numero_meia, valor_meia);
+    printf("%s       %.2i   R$ %2f\n", produto_camiseta, numero_camiseta, valor_camiseta);
+    printf("%s       %.2i   R$ %2f\n", produto_calca, numero_calca, valor_calca);
+    printf("%s       %.2i   R$ %2f\n", produto_meia, numero_meia, valor_meia);
     
     printf("==================================================\n");
 

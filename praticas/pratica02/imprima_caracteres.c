@@ -3,10 +3,10 @@
 int main () {
 
     char primeiro = 'A';
-    char segundo = "Isoo aqui eh uma sting";
+    char segundo[] = "Isoo aqui eh uma sting";
 
-    printf("%c\n", caractere);
-    printf("%s\n", string);
+    printf("%c\n", primeiro);
+    printf("%s\n", segundo);
 
     return 0;
 }

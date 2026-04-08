@@ -6,7 +6,7 @@ int main() {
 
     
     printf("%d\n", inteiro);
-    printf("%d\n"; negativo);
+    printf("%d\n", negativo);
     printf("%.4i\n", grande);
 
     return 0;
